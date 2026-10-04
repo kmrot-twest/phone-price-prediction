@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "uvicorn api.index:app --reload --host 0.0.0.0 --port 3000",
+  "env": {},
+  "functions": {
+    "api/**/*.py": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "public": false
+}
