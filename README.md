@@ -25,7 +25,7 @@ A web app that predicts phone prices based on specifications using a trained Ran
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/phone-price-predictor.git
+   git clone https://github.com/kmrot-twest/phone-price-predictor.git
    cd phone-price-predictor
    ```
 
